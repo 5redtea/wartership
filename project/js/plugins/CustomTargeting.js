@@ -1,19 +1,24 @@
-// 保存原始方法
-var _Game_Action_apply = Game_Action.prototype.apply;
-
-// 重写技能应用方法
-Game_Action.prototype.apply = function(target) {
-    // 如果是特定技能
-    if (this.item().id === 95) {
-        // 查找ID=7的角色
-        var target7 = this.opponentsUnit().aliveMembers().find(actor => {
-            return actor.actorId() === 0007;
-        });
-        if (target7) {
-            // 强制修改目标为ID=7的角色
-            this._targetIndex = target7.index();
+/*:
+ * @target MZ
+ * @plugindesc 精确强制攻击ID=7角色
+ */
+(() => {
+    // 保存原始方法
+    const _Game_Action_evaluate = Game_Action.prototype.evaluate;
+    
+    Game_Action.prototype.evaluate = function() {
+        // 仅处理敌人技能（假设敌人技能ID为10）
+        if (this.subject().isEnemy() && this.item().id === 10) {
+            // 查找我方ID=7的存活角色
+            const target7 = $gameParty.members().find(actor => 
+                actor.actorId() === 7 && actor.isAlive());
+            
+            if (target7) {
+                // 强制设置目标
+                this._targetIndex = $gameParty.members().indexOf(target7);
+                this._targets = [target7];
+            }
         }
-    }
-    // 调用原始方法
-    return _Game_Action_apply.call(this, target);
-};
+        return _Game_Action_evaluate.call(this);
+    };
+})();
