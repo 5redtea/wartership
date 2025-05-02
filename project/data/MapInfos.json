@@ -16,7 +16,7 @@ null,
 {"id":14,"expanded":true,"name":"lab_lv01","order":5,"parentId":4,"scrollX":953.1428571428571,"scrollY":900.8571428571428,"quick":false},
 {"id":15,"expanded":false,"name":"B1","order":6,"parentId":4,"scrollX":952.2857142857142,"scrollY":900.8571428571428,"quick":false},
 {"id":16,"expanded":false,"name":"room_temp","order":4,"parentId":4,"scrollX":953.1428571428571,"scrollY":887.1428571428571,"quick":false},
-{"id":17,"expanded":true,"name":"cave","order":13,"parentId":10,"scrollX":953.1428571428571,"scrollY":1012.2857142857142,"quick":false},
-{"id":18,"expanded":true,"name":"cave_end","order":14,"parentId":17,"scrollX":953.1428571428571,"scrollY":900.8571428571428,"quick":false},
+{"id":17,"expanded":true,"name":"cave","order":13,"parentId":10,"scrollX":846,"scrollY":1019.25,"quick":false},
+{"id":18,"expanded":true,"name":"cave_end","order":14,"parentId":17,"scrollX":834,"scrollY":788.25,"quick":false},
 {"id":19,"expanded":false,"name":"masterRoom","order":18,"parentId":8,"scrollX":0,"scrollY":0,"quick":false}
 ]
