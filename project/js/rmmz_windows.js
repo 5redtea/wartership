@@ -3933,6 +3933,11 @@ function Window_NameInput() {
 Window_NameInput.prototype = Object.create(Window_Selectable.prototype);
 Window_NameInput.prototype.constructor = Window_NameInput;
 
+Window_NameInput.prototype.start = function() {
+    Window_TextInput.prototype.start.call(this);
+    this._imeMode = 'active'; // 启用输入法支持
+};
+
 // prettier-ignore
 Window_NameInput.LATIN1 =
         [ "A","B","C","D","E",  "a","b","c","d","e",
