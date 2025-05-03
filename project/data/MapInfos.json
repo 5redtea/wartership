@@ -13,11 +13,12 @@ null,
 {"id":11,"expanded":true,"name":"world_temp","order":13,"parentId":10,"scrollX":1354.2857142857142,"scrollY":1617.4285714285713,"quick":false},
 {"id":12,"expanded":true,"name":"____dungeon01","order":16,"parentId":0,"scrollX":556,"scrollY":517.5,"quick":false},
 {"id":13,"expanded":true,"name":"test_duegeon1","order":17,"parentId":12,"scrollX":1128,"scrollY":1128.857142857143,"quick":false},
-{"id":14,"expanded":true,"name":"lab_lv01","order":6,"parentId":4,"scrollX":588,"scrollY":525.5,"quick":false},
-{"id":15,"expanded":true,"name":"B1","order":7,"parentId":4,"scrollX":952.2857142857142,"scrollY":900.8571428571428,"quick":false},
-{"id":16,"expanded":false,"name":"room_temp","order":5,"parentId":4,"scrollX":741.3333333333334,"scrollY":690,"quick":false},
+{"id":14,"expanded":true,"name":"lab_lv01","order":5,"parentId":4,"scrollX":588,"scrollY":525.5,"quick":false},
+{"id":15,"expanded":true,"name":"B1","order":6,"parentId":4,"scrollX":952.2857142857142,"scrollY":900.8571428571428,"quick":false},
+null,
 {"id":17,"expanded":true,"name":"cave","order":14,"parentId":10,"scrollX":834.6666666666666,"scrollY":787.3333333333334,"quick":false},
 {"id":18,"expanded":true,"name":"cave_end","order":15,"parentId":17,"scrollX":953.1428571428571,"scrollY":887.1428571428571,"quick":false},
 {"id":19,"expanded":false,"name":"masterRoom","order":20,"parentId":8,"scrollX":0,"scrollY":0,"quick":false},
-{"id":20,"expanded":true,"name":"lex","order":3,"parentId":3,"scrollX":848,"scrollY":1040,"quick":false}
+{"id":20,"expanded":true,"name":"lex","order":3,"parentId":3,"scrollX":848,"scrollY":1040,"quick":false},
+{"id":21,"expanded":false,"name":"office","order":7,"parentId":4,"scrollX":0,"scrollY":0,"quick":false}
 ]
