@@ -3927,8 +3927,8 @@ Game_Battler.prototype.onBattleEnd = function() {
     this.removeBattleStates();
     this.removeAllBuffs();
     this.clearActions();
-    if (!this.isPreserveTp()) {
-        this.clearTp();
+   if (!this.isPreserveTp()) {
+       this.clearTp();
     }
     this.appear();
 };

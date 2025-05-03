@@ -3,6 +3,7 @@
  * @plugindesc 强制敌人技能攻击指定ID角色
  * @author YourName
  */
+
 (() => {
     // 保存原始目标选择方法
     const _Game_Action_targetsForOpponents = Game_Action.prototype.targetsForOpponents;

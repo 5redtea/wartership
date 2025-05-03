@@ -6,5 +6,6 @@ var $plugins =
 {"name":"AltMenuScreen","status":true,"description":"Alternative menu screen layout.","parameters":{}},
 {"name":"AltSaveScreen","status":true,"description":"Alternative save/load screen layout.","parameters":{}},
 {"name":"ButtonPicture","status":true,"description":"Makes a picture clickable.","parameters":{}},
-{"name":"TextPicture","status":true,"description":"Displays text as a picture.","parameters":{}}
+{"name":"TextPicture","status":true,"description":"Displays text as a picture.","parameters":{}},
+{"name":"RetainCP","status":false,"description":"战斗后保留CP","parameters":{}}
 ];
