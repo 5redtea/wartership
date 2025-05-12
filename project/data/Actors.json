@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"battlerName":"chara_comma","characterIndex":0,"characterName":"chara_comma","classId":1,"equips":[2,0,0,0,0],"faceIndex":0,"faceName":"chara_comma","traits":[{"code":11,"dataId":1,"value":0.7}],"initialLevel":2,"maxLevel":99,"name":"指挥官","nickname":"","note":"","profile":""},
+{"id":1,"battlerName":"chara_comma","characterIndex":0,"characterName":"chara_comma","classId":1,"equips":[2,0,0,0,0],"faceIndex":0,"faceName":"chara_comma","traits":[{"code":11,"dataId":1,"value":0.7},{"code":51,"dataId":1,"value":1},{"code":51,"dataId":2,"value":1},{"code":55,"dataId":1,"value":1}],"initialLevel":2,"maxLevel":99,"name":"指挥官","nickname":"","note":"","profile":""},
 {"id":2,"battlerName":"girls01_1","characterIndex":0,"characterName":"girls01","classId":5,"equips":[1,0,0,0,0],"faceIndex":0,"faceName":"girls01","traits":[{"code":43,"dataId":92,"value":1}],"initialLevel":2,"maxLevel":99,"name":"萤火虫","nickname":"","note":"","profile":""},
 {"id":3,"battlerName":"girls01_2","characterIndex":1,"characterName":"girls01","classId":5,"equips":[0,0,65,0,0],"faceIndex":1,"faceName":"girls01","traits":[],"initialLevel":2,"maxLevel":99,"name":"吹雪","nickname":"","note":"","profile":""},
 {"id":4,"battlerName":"Actor1_4","characterIndex":3,"characterName":"Actor1","classId":5,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"Actor1","traits":[],"initialLevel":2,"maxLevel":99,"name":"基林","nickname":"","note":"","profile":""},
