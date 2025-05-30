@@ -28,7 +28,7 @@ null,
 {"id":26,"expanded":true,"name":"__plot","order":7,"parentId":3,"scrollX":780.75,"scrollY":486.75,"quick":false},
 {"id":27,"expanded":true,"name":"gluttonycastle_west","order":23,"parentId":12,"scrollX":892.2857142857142,"scrollY":570,"quick":false},
 {"id":28,"expanded":true,"name":"gluttonycastle_gate","order":19,"parentId":12,"scrollX":1403.142857142857,"scrollY":570,"quick":false},
-{"id":29,"expanded":false,"name":"center","order":20,"parentId":28,"scrollX":1206,"scrollY":1153.7142857142856,"quick":false},
+{"id":29,"expanded":false,"name":"center","order":20,"parentId":28,"scrollX":1201.7142857142856,"scrollY":1157.142857142857,"quick":false},
 null,
 {"id":31,"expanded":false,"name":"cateen","order":22,"parentId":16,"scrollX":1192.2857142857142,"scrollY":605.1428571428571,"quick":false}
 ]
