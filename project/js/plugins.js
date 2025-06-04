@@ -13,5 +13,5 @@ var $plugins =
 {"name":"PartyMember","status":false,"description":"队伍成员替换","parameters":{}},
 {"name":"MultiSlotArmor","status":true,"description":"允许类型4装备装备到第4、5、6格","parameters":{}},
 {"name":"DisableTroop20AfterVictory","status":true,"description":"敌群20击败后：对话+禁用+调用公共事件7+开关28","parameters":{}},
-{"name":"valuefly","status":false,"description":"","parameters":{}}
+{"name":"CustomDamageOffset","status":true,"description":"","parameters":{}}
 ];
