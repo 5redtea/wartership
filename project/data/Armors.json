@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"atypeId":1,"description":"","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":135,"name":"-----护甲","note":"","params":[0,0,0,1,0,0,0,0],"price":100},
+{"id":1,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":135,"name":"-----护甲","note":"","params":[0,0,0,1,0,0,0,0],"price":100},
 {"id":2,"atypeId":1,"description":"+5敏捷，+5幸运，普通攻击属性变为反潜；","etypeId":2,"traits":[{"code":31,"dataId":7,"value":1}],"iconIndex":114,"name":"标准型深弹投射器","note":"","params":[0,0,0,0,0,0,5,5],"price":300},
 {"id":3,"atypeId":1,"description":"+9敏捷，+12幸运，普通攻击属性变为反潜；","etypeId":2,"traits":[{"code":31,"dataId":7,"value":1}],"iconIndex":114,"name":"先进型深弹投射器","note":"","params":[0,0,0,0,0,0,9,12],"price":600},
 {"id":4,"atypeId":1,"description":"+9敏捷，+12幸运，普通攻击属性变为反潜；","etypeId":2,"traits":[{"code":31,"dataId":7,"value":1}],"iconIndex":114,"name":"刺猬弹深弹投射器","note":"","params":[0,0,0,0,0,0,9,12],"price":1600},
