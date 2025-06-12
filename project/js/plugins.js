@@ -10,5 +10,7 @@ var $plugins =
 {"name":"MultiSlotArmor","status":true,"description":"允许类型4装备装备到第4、5、6格","parameters":{}},
 {"name":"DisableTroop20AfterVictory","status":true,"description":"敌群20击败后：对话+禁用+调用公共事件7+开关28","parameters":{}},
 {"name":"CustomDamagePopOffset","status":true,"description":"","parameters":{}},
-{"name":"LimitEquipByNote","status":true,"description":"Restrict equipment to specific actors using note tags","parameters":{}}
+{"name":"LimitEquipByNote","status":true,"description":"Restrict equipment to specific actors using note tags","parameters":{}},
+{"name":"ArmyExpBonus","status":true,"description":"","parameters":{}},
+{"name":"ExpBonus","status":true,"description":"Displays text as a picture.","parameters":{}}
 ];
