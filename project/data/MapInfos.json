@@ -27,8 +27,8 @@ null,
 {"id":25,"expanded":false,"name":"office","order":6,"parentId":4,"scrollX":1045.5,"scrollY":660.75,"quick":false},
 {"id":26,"expanded":true,"name":"__plot","order":7,"parentId":3,"scrollX":780.75,"scrollY":486.75,"quick":false},
 {"id":27,"expanded":true,"name":"03_west","order":23,"parentId":12,"scrollX":1045.5,"scrollY":695.25,"quick":false},
-{"id":28,"expanded":false,"name":"inner_aisle","order":27,"parentId":29,"scrollX":1045.5,"scrollY":660.75,"quick":false},
+{"id":28,"expanded":false,"name":"inner_aisle","order":27,"parentId":29,"scrollX":767.25,"scrollY":729.75,"quick":false},
 {"id":29,"expanded":true,"name":"04_center","order":25,"parentId":12,"scrollX":1045.5,"scrollY":660.75,"quick":false},
-{"id":30,"expanded":false,"name":"indoor","order":26,"parentId":29,"scrollX":1057.5,"scrollY":677.25,"quick":false},
+{"id":30,"expanded":false,"name":"indoor","order":26,"parentId":29,"scrollX":767.25,"scrollY":578.25,"quick":false},
 {"id":31,"expanded":false,"name":"cateen","order":19,"parentId":16,"scrollX":1045.5,"scrollY":660.75,"quick":false}
 ]
