@@ -12,5 +12,6 @@ var $plugins =
 {"name":"CustomDamagePopOffset","status":true,"description":"","parameters":{}},
 {"name":"LimitEquipByNote","status":true,"description":"Restrict equipment to specific actors using note tags","parameters":{}},
 {"name":"ArmyExpBonus","status":true,"description":"","parameters":{}},
-{"name":"ExpBonus","status":true,"description":"Displays text as a picture.","parameters":{}}
+{"name":"ExpBonus","status":true,"description":"Displays text as a picture.","parameters":{}},
+{"name":"ItemCannotUse","status":true,"description":"","parameters":{}}
 ];
