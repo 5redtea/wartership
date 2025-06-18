@@ -13,5 +13,6 @@ var $plugins =
 {"name":"LimitEquipByNote","status":true,"description":"Restrict equipment to specific actors using note tags","parameters":{}},
 {"name":"ArmyExpBonus","status":true,"description":"","parameters":{}},
 {"name":"ExpBonus","status":true,"description":"Displays text as a picture.","parameters":{}},
-{"name":"ItemCannotUse","status":true,"description":"","parameters":{}}
+{"name":"ItemCannotUse","status":true,"description":"","parameters":{}},
+{"name":"ItemDoubleEffect","status":true,"description":"使状态45的角色使用道具时对友方效果全体化","parameters":{}}
 ];
