@@ -1,10 +1,12 @@
 /*:
  * @target MZ
- * @plugindesc 使状态45的角色使用道具时对友方效果全体化
+ * @plugindesc 使状态45的角色使用道具时对友方效果全体化（包括复活类道具）
  * @author 你的名字
  * 
  * @help
- * 仅实现道具效果的全体化，不修改效果值
+ * 功能：
+ * 1. 当角色拥有状态45时，使用对友方道具效果会全体化
+ * 2. 如果选中死亡角色，则改为对所有死亡角色生效
  * 状态ID硬编码为45
  */
 
@@ -24,8 +26,21 @@
             this.isItem() &&
             this.isForFriend()) {
             
-            console.log(`[全体化生效] 道具: ${this.item().name}`);
-            return this.friendsUnit().aliveMembers();
+            const unit = this.friendsUnit();
+            const originalTargets = _Game_Action_targets.call(this);
+            
+            // 检查原始目标中是否有死亡角色
+            const hasDeadTarget = originalTargets.some(target => target.isDead());
+            
+            if (hasDeadTarget) {
+                // 如果目标是死亡角色，则选择所有死亡角色
+                console.log(`[全体化生效-复活] 道具: ${this.item().name}`);
+                return unit.deadMembers();
+            } else {
+                // 否则选择所有存活角色
+                console.log(`[全体化生效-治疗] 道具: ${this.item().name}`);
+                return unit.aliveMembers();
+            }
         }
         
         // 不满足条件时使用原始逻辑
