@@ -37,7 +37,7 @@ null,
 null,
 {"id":36,"expanded":true,"name":"underpass","order":20,"parentId":11,"scrollX":1044.857142857143,"scrollY":810,"quick":false},
 {"id":37,"expanded":false,"name":"underpass2","order":21,"parentId":36,"scrollX":1044.857142857143,"scrollY":823.7142857142857,"quick":false},
-{"id":38,"expanded":false,"name":"library","order":4,"parentId":4,"scrollX":609.5,"scrollY":531.5,"quick":false},
+{"id":38,"expanded":false,"name":"library","order":4,"parentId":4,"scrollX":1044.857142857143,"scrollY":823.7142857142857,"quick":false},
 {"id":39,"expanded":true,"name":"plot_stonehill","order":12,"parentId":40,"scrollX":780.75,"scrollY":582.75},
 {"id":40,"expanded":true,"name":"__plot","order":11,"parentId":6,"scrollX":0,"scrollY":0,"quick":false}
 ]
