@@ -14,5 +14,6 @@ var $plugins =
 {"name":"ArmyExpBonus","status":true,"description":"","parameters":{}},
 {"name":"ExpBonus","status":true,"description":"Displays text as a picture.","parameters":{}},
 {"name":"ItemCannotUse","status":true,"description":"","parameters":{}},
-{"name":"ItemDoubleEffect","status":true,"description":"使状态45的角色使用道具时对友方效果全体化","parameters":{}}
+{"name":"ItemDoubleEffect","status":true,"description":"使状态45的角色使用道具时对友方效果全体化","parameters":{}},
+{"name":"Killchain","status":true,"description":"多个技能击杀目标后再次释放(带文本提示)","parameters":{"Skill IDs":"124,125,126","Max Chain":"3","Message Text":"怒火沸腾，眼中杀意涌动！"}}
 ];
