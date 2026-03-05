@@ -37,7 +37,7 @@ null,
 {"id":35,"expanded":true,"name":"01_entry","order":46,"parentId":41,"scrollX":882.75,"scrollY":609,"quick":false},
 {"id":36,"expanded":true,"name":"underpass","order":28,"parentId":10,"scrollX":1062,"scrollY":795,"quick":false},
 {"id":37,"expanded":false,"name":"underpass2","order":29,"parentId":36,"scrollX":734,"scrollY":699,"quick":false},
-{"id":38,"expanded":true,"name":"library","order":5,"parentId":4,"scrollX":1008.8571428571428,"scrollY":600.8571428571428,"quick":false},
+{"id":38,"expanded":true,"name":"library","order":5,"parentId":4,"scrollX":522,"scrollY":346,"quick":false},
 {"id":39,"expanded":true,"name":"plot_stonehill","order":18,"parentId":40,"scrollX":1336.3636363636365,"scrollY":716.7272727272727},
 {"id":40,"expanded":false,"name":"__plot","order":17,"parentId":6,"scrollX":1336.3636363636365,"scrollY":716.7272727272727,"quick":false},
 {"id":41,"expanded":true,"name":"____dungeon02_warthtower","order":45,"parentId":0,"scrollX":882.75,"scrollY":609,"quick":false},
@@ -71,5 +71,5 @@ null,
 {"id":69,"expanded":true,"name":"lv41-2","order":69,"parentId":57,"scrollX":882.75,"scrollY":609,"quick":false},
 {"id":70,"expanded":false,"name":"house01","order":26,"parentId":58,"scrollX":816,"scrollY":624,"quick":false},
 {"id":71,"expanded":false,"name":"Bulldozer's Room","order":8,"parentId":25,"scrollX":706,"scrollY":523,"quick":false},
-{"id":72,"expanded":true,"name":"____defensive_01","order":1,"parentId":0,"scrollX":1204,"scrollY":1974,"quick":false}
+{"id":72,"expanded":true,"name":"____defensive_01","order":1,"parentId":0,"scrollX":887,"scrollY":2036,"quick":false}
 ]
